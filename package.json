@@ -5,7 +5,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "postinstall": "echo Ddonedonedone!!!!!!!!!",
-    "build": "lerna run build --stream",
+    "build": "lerna run build ",
+    "start": "lerna run build --stream",
     "dev": "lerna run dev --stream",
     "prepare": "husky install",
     "lint": "lerna run lint",
