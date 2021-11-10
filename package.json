@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "npm run bootstrap",
     "build": "lerna run build",
     "dev": "lerna run dev --stream",
     "prepare": "husky install",
