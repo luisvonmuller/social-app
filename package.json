@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "postinstall": "npm run bootstrap",
-    "build": "lerna run build",
+    "postinstall": "echo Ddonedonedone!!!!!!!!!",
+    "build": "lerna run build --stream",
     "dev": "lerna run dev --stream",
     "prepare": "husky install",
     "lint": "lerna run lint",
